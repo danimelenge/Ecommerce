@@ -1,0 +1,140 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    
+   /* background: black; */
+}
+.Edit_name input{
+
+   
+    height: 30px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+}
+
+.Edit_lastname input{
+
+   
+    height: 30px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+}
+
+.sex input{
+
+   
+    height: 30px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+}
+
+.birth_date select{
+
+   
+    height: 30px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+}
+
+.country select{
+
+    
+    height: 30px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+}
+
+.department select{
+
+
+    height: 30px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+}
+
+.municipality select{
+
+
+    height: 30px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+}
+
+.address input{
+
+
+    height: 30px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+}
+
+
+.current_pass input{
+
+   
+    height: 30px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+}
+.new_pass input{
+
+
+    height: 30px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+}
+
+.verify_pass input{
+
+   
+    height: 30px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+}
+
+.btn Button{
+
+    width: 218px;
+    height:30px;
+    border-radius: 15px;
+    padding:5px;
+    background: rgba(239,143,0,1);
+    
+}
+
+
+
+
+
+.container {
+    border-radius: 100px;
+    
+}
+.logo{
+ margin-left: 70px;
+ margin-right: 40px;
+ min-block-size: 30px;
+}
