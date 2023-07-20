@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="../css/style-carrito.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <div class="left-section">
+            <div class="logo">
+                <img src="../img/logo.jpeg" alt="Logo">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">HOMBRE</a></li>
+                    <li><a href="#">MUJER</a></li>
+                    <li><a href="#">ZAPATOS</a></li>
+                    <li><a href="#">MARCA</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right-section">
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="profile">
+                <a href="#"><i class="fa-regular fa-circle-user" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="cart">
+                <a href="#"><i class="fas fa-shopping-cart" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="left-section-main">
+            <div class="titles">
+                <h1>MI CARRITO</h1>
+                <h4>(#)Productos</h4>
+            </div>
+            <div class="container-product">
+                <div class="img-product">
+                    <img src="../img/IMG-PRODUCT-PRUEBA.jpg" alt="">
+                </div>
+                <div class="items">
+                    <h3>Nombre Producto</h3>
+                    <div class="items-button">
+                        <button>-</button>
+                        <button>+</button>
+                    </div>
+                    <button><i class="fa-solid fa-trash" style="color: #424242;"></i></button>
+                </div>
+                <div class="prices">
+                    <h3>Precio Und</h3>
+                    <br>
+                    <span>$ 429.900,00</span>
+                    <br> <br>
+                    <h3>Total</h3>
+                    <br>
+                    <span>$ 429.900,00</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="right-section-main">
+            <div class="titles-prices">
+                <h3>Subtotal:</h3>
+                <h3>$618.800</h3>
+            </div>
+            <div class="item-pay">
+                <p>* Impuestos, envio y descuentos calculados en el Checkout</p>
+                <button><i class="fa-solid fa-bag-shopping" style="color: #000000;"></i> IR A PAGAR</button>
+            </div>
+            <div class="methods-pay">
+                <h3>MÉTODOS DE PAGO</h3>
+                <img src="../img/pagos.jpeg" alt="">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
