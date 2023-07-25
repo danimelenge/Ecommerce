@@ -1,4 +1,10 @@
 <?php
+require_once('resources/inicial.php')
+?>
+
+<link rel="stylesheet" href="resources/styleIndex.css" />
+
+<?php
 require_once('resources/Header1.php')
 ?>
 
