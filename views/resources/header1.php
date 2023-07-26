@@ -7,7 +7,7 @@ require_once('initiator.php');
 <body>
     <header class="navbar navbar-expand-lg navbar-dark BgBlack">
         <div class="container-fluid ">
-            <a class="navbar-brand containerlogo center" href="editUser.php">
+            <a class="navbar-brand containerlogo center" href="Register.php">
                 <img class="logo" src="../img/BD1.png" alt="Logo" />
 
             </a>
