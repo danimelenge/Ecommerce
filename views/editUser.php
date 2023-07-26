@@ -8,7 +8,6 @@ require_once('resources/header2.php')
 
 <body>
   -<div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">espacio para Header</header>
     <div class="d-flex flex-wrap justify-content-center">
       <h1>EDITAR PERFIL</h1>
     </div>
@@ -32,6 +31,9 @@ require_once('resources/header2.php')
           </div>
           </div>
           <br>
+          <div class="container d-flex flex-column align-items-center ">
+          <button type="button"id="Editphoto" class=" btn ">Editar Perfil</button>
+          </div>
 
           <div class="Edit_name col-8">
             <label for="EditName" class="form-label">Editar nombre</label>
