@@ -21,9 +21,7 @@ require_once('resources/header2.php')
 
         <div class="container d-flex flex-column align-items-center">
           <!-- Contenido del primer div container -->
-          <div class="logo col-8" id="EditImage">
-            <img src="../img/logo_pato.png" alt="">
-            <!-- <h1>aqui va img</h1> -->
+          
       
         <div class="Logo">   
         <div  class="containerimg">
