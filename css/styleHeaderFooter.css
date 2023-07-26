@@ -7,6 +7,9 @@ body {
   padding: 0;
 }
 
+.HeaderLittle{
+  display: none;
+}
 
 .center {
   display: flex;
@@ -112,4 +115,16 @@ body {
   width: 200px; 
   
   height: 150px;
+}
+@media screen and (max-width: 1000px){
+
+
+  .HeaderBig{
+    display: none !important;
+  }
+
+  .HeaderLittle{
+    display: inline;
+  }
+
 }

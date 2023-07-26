@@ -1,8 +1,8 @@
 <?php
-require_once('resources/inicial.php')
+require_once('resources/initiator.php')
 ?>
 
-<link rel="stylesheet" href="resources/styleIndex.css" />
+<link rel="stylesheet" href="../css/styleIndex.css" />
 
 <?php
 require_once('resources/Header1.php')
@@ -21,23 +21,23 @@ require_once('resources/Header1.php')
 
 
 <div class="container text-center bg-primary">
-<h1 class="display-4">Slider</h1> <!-- Contenedor principal centrado -->
-        <div class="row">
-            <!-- Las siguientes clases col-md-3 definen que cada columna ocupe 3/12 (1/4) del ancho total en dispositivos medianos y más grandes -->
-            <div class="col-md-3">
-                <img src="../img/carru2.jpeg" alt="Imagen 1" style="width: 200px; height: 150px;">
-            </div>
-            <div class="col-md-3">
-                <img src="../img/carru3.jpg" alt="Imagen 2" style="width: 200px; height: 150px;">
-            </div>
-            <div class="col-md-3">
-                <img src="../img/carru4.jpg" alt="Imagen 3" style="width: 200px; height: 150px;">
-            </div>
-            <div class="col-md-3">
-                <img src="../img/caru.jpg" alt="Imagen 4" style="width4: 200px; height: 150px;">
-            </div>
+    <h1 class="display-4">Slider</h1> <!-- Contenedor principal centrado -->
+    <div class="row">
+        <!-- Las siguientes clases col-md-3 definen que cada columna ocupe 3/12 (1/4) del ancho total en dispositivos medianos y más grandes -->
+        <div class="col-md-3">
+            <img src="../img/carru2.jpeg" alt="Imagen 1" style="width: 200px; height: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="../img/carru3.jpg" alt="Imagen 2" style="width: 200px; height: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="../img/carru4.jpg" alt="Imagen 3" style="width: 200px; height: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="../img/caru.jpg" alt="Imagen 4" style="width4: 200px; height: 150px;">
         </div>
     </div>
+</div>
 
 
 
@@ -66,27 +66,24 @@ require_once('resources/Header1.php')
 
 
 <div class="container text-center bg-primary">
-<h1 class="display-4">Slider</h1> <!-- Contenedor principal centrado -->
-        <div class="row">
-            <!-- Las siguientes clases col-md-3 definen que cada columna ocupe 3/12 (1/4) del ancho total en dispositivos medianos y más grandes -->
-            <div class="col-md-3">
-                <img src="../img/carru2.jpeg" alt="Imagen 1" style="width: 200px; height: 150px;">
-            </div>
-            <div class="col-md-3">
-                <img src="../img/carru3.jpg" alt="Imagen 2" style="width: 200px; height: 150px;">
-            </div>
-            <div class="col-md-3">
-                <img src="../img/carru4.jpg" alt="Imagen 3" style="width: 200px; height: 150px;">
-            </div>
-            <div class="col-md-3">
-                <img src="../img/caru.jpg" alt="Imagen 4" style="width4: 200px; height: 150px;">
-            </div>
+    <h1 class="display-4">Slider</h1> <!-- Contenedor principal centrado -->
+    <div class="row">
+        <!-- Las siguientes clases col-md-3 definen que cada columna ocupe 3/12 (1/4) del ancho total en dispositivos medianos y más grandes -->
+        <div class="col-md-3">
+            <img src="../img/carru2.jpeg" alt="Imagen 1" style="width: 200px; height: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="../img/carru3.jpg" alt="Imagen 2" style="width: 200px; height: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="../img/carru4.jpg" alt="Imagen 3" style="width: 200px; height: 150px;">
+        </div>
+        <div class="col-md-3">
+            <img src="../img/caru.jpg" alt="Imagen 4" style="width4: 200px; height: 150px;">
         </div>
     </div>
+</div>
 
-
-
-    
 <?php
 require_once('resources/Footer.php')
 ?>
