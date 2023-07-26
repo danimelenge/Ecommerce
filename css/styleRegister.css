@@ -1,0 +1,69 @@
+.con1{
+  border-radius: 25px; 
+}
+
+.form-label{
+    padding: 5px;
+}
+
+
+/*  Estilo Input  */
+
+.form-control {
+    height: 35px;
+    /* Medida Altura */
+    border: 1px solid rgba(239, 143, 0, 1);
+    /* Borde sólido de color Naranja y ancho de 1px */
+    border-radius: 15px;
+    /* Bordes redondeados */
+    padding: 5px;
+    /* Espacio interno dentro del input */
+}
+
+.country select{
+
+    
+    height: 35px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+} 
+
+.department select{
+
+    
+    height: 35px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+} 
+
+.municipality select{
+
+    
+    height: 35px;
+    border:1px solid rgba(239,143,0,1);
+    padding:5px;
+    border-radius: 15px;
+    
+} 
+
+
+.btn {
+    width: 218px;
+    height: 30px;
+    
+    border-radius: 15px;
+    /* Bordes redondeados */
+    padding: 5px;
+    /* Espacio interno dentro del input */
+
+    background: linear-gradient(0deg, #EF8F00, #EF8F00),
+        linear-gradient(0deg, #F2F0F0, #F2F0F0);
+    border: 1px solid rgba(242, 240, 240, 1);
+    /* Estilos del Botón */
+}
+
+
