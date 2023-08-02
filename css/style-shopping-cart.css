@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(237,242,250);
+    background: radial-gradient(circle, rgba(237,242,250,1) 0%, rgba(237,242,250,1) 50%, rgba(237,242,250,1) 100%);
+}
+
+#container-titles{
+    gap: 6.1rem;
+}
+
+.icon-hover-danger:hover {
+    border-color: #000000 !important;
+    background-color: white !important;
+    color: black;
+    
+}
+
+.icon-hover-danger:hover i {
+    color: #000000 !important;
+}
+
+.btn:hover{
+    border-color: black;
+}
+
+.btn-1{
+    background-color: #f59300;
+}
+
+.btn-2:hover{
+    border-color: black;
+}
