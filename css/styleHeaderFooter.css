@@ -11,6 +11,26 @@ body {
   display: none;
 }
 
+/* Cambiar el cursor a una manita (cursor de tipo "pointer") al pasar el mouse sobre el campo de búsqueda */
+.searchImg:hover {
+  cursor: pointer;
+}
+
+
+/* Ocultar el botón de "borrar" en el campo de búsqueda para navegadores basados en WebKit */
+#search-form input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* Ocultar el botón de "borrar" en el campo de búsqueda para Internet Explorer */
+#search-form input[type="search"]::-ms-clear {
+  display: none;
+}
+
+.containerlogo{
+  margin-left: 10px;
+}
+
 .center {
   display: flex;
   align-items: center;
@@ -32,6 +52,7 @@ body {
   height: auto;
   max-width: 100%;
   max-height: 100%;
+
 }
 
 .searchImg{
@@ -108,10 +129,35 @@ body {
   padding: 5px; /* Puedes ajustar el valor según el espaciado que desees */
 }
 
+.specialLink {
+  border: 1px solid white;
+  border-radius: 20px; /* Puedes ajustar el valor para redondear más o menos los bordes */
+ 
+  width: 55x;
+  height: 39px;
+}
+
+
+.categoyHeader {
+   margin: 0px 8px ; /* Puedes ajustar el valor según el espacio deseado */
+}
+
+
+/* Agrega espacio vertical entre el formulario de búsqueda y el enlace con el ícono de usuario */
+#search-form, a .bi-person-circle {
+  margin: 0px 7px; /* Puedes ajustar el valor según el espacio deseado */
+}
+
+/* Agrega espacio vertical entre el enlace con el ícono de usuario y el enlace con el ícono de carrito */
+a .bi-person-circle, a .bi-cart {
+  margin: 0px 7px; /* Puedes ajustar el valor según el espacio deseado */
+}
+
+
+
+
 
 .img-biggest {
-
-
   width: 200px; 
   
   height: 150px;

@@ -1,0 +1,81 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 16px;
+}
+
+.title {
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.formulario {
+    border-radius: 25px;
+    border: 1px solid #ffffff07;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.164);
+    height: 85vh;
+    width: 80vh;
+}
+
+.form-control {
+    background: rgba(255, 252, 250, 0.7);
+    backdrop-filter: blur(15px);
+    transition: 0.5s ease-in;
+    border-radius: 20%;
+    box-shadow: none;
+    border-radius: 1.25rem;
+    color: black;
+}
+
+.label1 {
+    color: white;
+    text-align: right;
+}
+
+.word {
+    font-size: 2vh;
+    font-weight: bold;
+    color: white;
+}
+
+.btn {
+    font-weight: 600;
+    background: rgba(255, 252, 250, 0.7);
+    transition: 0.5s ease-in;
+    border-radius: 20%;
+    box-shadow: none;
+    border-radius: 1.25rem;
+    border: 2px solid #B15500;
+    width: 20vh;
+    height: 5vh;
+    font-size: 2vh;
+}
+
+.avatar {
+    width: 110px;
+    height: 10vh;
+    display: block;
+    margin: auto;
+    background: rgba(177, 85, 0, 0.64);
+    border-radius: 50%;
+}
+
+@media(max-width: 600px) {
+    .title {
+        font-size: 3em !important;
+    }
+}

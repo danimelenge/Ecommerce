@@ -15,7 +15,7 @@ require_once('initiator.php');
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" id="navbarScroll">
-                <ul class="navbar-nav mx-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav mx-auto my-2 my-lg-0">
                     <li class="nav-item">
                         <a class="nav-link categoyHeader" href="#">HOMBRE</a>
                     </li>
@@ -36,10 +36,10 @@ require_once('initiator.php');
                     </a>
                 </form>
                 <a href="">
-                    <i class="bi bi-person-circle tamano-icono color-icon"></i>
-                </a>
-                <a href="">
                     <i class="bi bi-cart tamano-icono color-icon"></i>
+                </a>
+                <a href="login.php">
+                    <i class="bi bi-person-circle tamano-icono color-icon"></i>
                 </a>
             </div>
 
